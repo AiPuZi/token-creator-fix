@@ -13,7 +13,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
     return (
         <>
           <Head>
-            <title>Create Solana Token</title>
+            <title>Create Token</title>
           </Head>
 
           <ContextProvider>
