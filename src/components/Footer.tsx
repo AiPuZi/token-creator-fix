@@ -14,7 +14,7 @@ export const Footer: FC = () => {
 
                 <div className="flex justify-between mb-0 gap-2">
                   <Link
-                    href="https://twitter.com/1A1zcoin"
+                    href="https://twitter.com/1A1ZCOIN"
                     target="_blank"
                     rel="noopener noreferrer"
                     passHref
