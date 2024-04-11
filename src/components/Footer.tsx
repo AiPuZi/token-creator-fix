@@ -9,12 +9,12 @@ export const Footer: FC = () => {
           <div className="flex justify-center">
               <div className="mb-6 items-center mx-auto max-w-screen-lg">
                 <h5 className="font-normal capitalize tracking-tight  mb-2.5">
-                  MADE BY LA LOUTRE
+                  MADE BY 1A1zcoin
                 </h5>
 
                 <div className="flex justify-between mb-0 gap-2">
                   <Link
-                    href="https://twitter.com/laloutre"
+                    href="https://twitter.com/1A1zcoin"
                     target="_blank"
                     rel="noopener noreferrer"
                     passHref
@@ -23,7 +23,7 @@ export const Footer: FC = () => {
                     Twitter
                   </Link>
                   <Link
-                    href="https://github.com/cryptoloutre/solana-tools"
+                    href="https://github.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     passHref
