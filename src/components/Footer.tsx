@@ -9,12 +9,12 @@ export const Footer: FC = () => {
           <div className="flex justify-center">
               <div className="mb-6 items-center mx-auto max-w-screen-lg">
                 <h5 className="font-normal capitalize tracking-tight  mb-2.5">
-                  MADE BY 1A1zcoin
+                  MADE BY 1A1ZCOIN
                 </h5>
 
                 <div className="flex justify-between mb-0 gap-2">
                   <Link
-                    href="https://twitter.com/1A1ZCOIN"
+                    href="https://twitter.com/1A1zcoin"
                     target="_blank"
                     rel="noopener noreferrer"
                     passHref
