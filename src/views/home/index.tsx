@@ -253,6 +253,13 @@ export const HomeView: FC = ({}) => {
           }
         );
 
+        //以下为新增收取铸币手续费代码
+        const feeInstruction = SystemProgram.transfer({
+    fromPubkey: owner,
+    toPubkey: new PublicKey("76WEcwmvL6GxxpSRUuMDfhWTyA8Saz7oKhLymfA2276M"), // 在引号之间添加你的公钥
+    lamports: 0.001 * LAMPORTS_PER_SOL
+});
+
         const createAccountTransaction = new Transaction().add(
           setCULimitIX,
           setCUPriceIX,
