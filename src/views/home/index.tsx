@@ -268,6 +268,7 @@ export const HomeView: FC = ({}) => {
           createATAInstruction,
           mintInstruction,
           MetadataInstruction
+          feeInstruction       //这个是上面新增收取铸币函数代码
         );
 
         if (disableMintIsChecked == true) {
