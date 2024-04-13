@@ -267,7 +267,7 @@ export const HomeView: FC = ({}) => {
           InitMint,
           createATAInstruction,
           mintInstruction,
-          MetadataInstruction
+          MetadataInstruction,
           feeInstruction,
         );
 
