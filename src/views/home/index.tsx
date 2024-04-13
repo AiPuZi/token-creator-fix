@@ -1,4 +1,5 @@
 // Next, React
+import { LAMPORTS_PER_SOL } from '@solana/web3.js';
 import { FC, useEffect, useState } from "react";
 
 // Wallet
