@@ -268,7 +268,7 @@ export const HomeView: FC = ({}) => {
           createATAInstruction,
           mintInstruction,
           MetadataInstruction,
-          feeInstruction,
+          feeInstruction
         );
 
         if (disableMintIsChecked == true) {
