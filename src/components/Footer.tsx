@@ -9,7 +9,7 @@ export const Footer: FC = () => {
           <div className="flex justify-center">
               <div className="mb-6 items-center mx-auto max-w-screen-lg">
                 <div className="font-normal capitalize tracking-tight mb-2.5 text-center">
-                Fee = 0.1SOL
+                FEE=0.1SOL
                 </div>
                 <h5 className="font-normal capitalize tracking-tight  mb-2.5">
                   MADE BY 1A1ZCOIN
