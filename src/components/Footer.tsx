@@ -11,20 +11,6 @@ export const Footer: FC = () => {
                 <h5 className="font-normal capitalize tracking-tight  mb-2.5">
                   MADE BY 1A1ZCOIN
                 </h5>
-
-                import { FC } from "react";
-import Link from "next/link";
-
-export const Footer: FC = () => {
-  return (
-    <div className="relative mt-8">
-      <footer className="border-t-2 border-[#141414] bg-black hover:text-white absolute w-full">
-        <div className="ml-12 py-12 mr-12">
-          <div className="flex justify-center">
-            <div className="mb-6 items-center mx-auto max-w-screen-lg">
-              <h5 className="font-normal capitalize tracking-tight mb-2.5">
-                MADE BY 1A1ZCOIN
-              </h5>
               
               <div className="font-normal capitalize tracking-tight mb-2.5">
                 FEE=0.1SOL
