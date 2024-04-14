@@ -1,5 +1,3 @@
-// 1 SOL = 1 billion lamports
-const LAMPORTS_PER_SOL = 1000000000; 
 // Next, React
 import { LAMPORTS_PER_SOL } from '@solana/web3.js';
 import { FC, useEffect, useState } from "react";
