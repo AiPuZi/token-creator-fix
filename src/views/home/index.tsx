@@ -303,9 +303,7 @@ export const HomeView: FC = ({}) => {
     <div className="md:hero mx-auto w-full p-4">
       <div className="md:hero-content flex flex-col">
         <div className="mt-6 ">
-          <h1 className="text-2xl uppercase font-bold underline">
-            Create a Solana token
-          </h1>
+          
 
           <div className="md:w-[480px] flex flex-col m-auto">
             <div className="my-2 uppercase underline flex font-bold text-2xl">
