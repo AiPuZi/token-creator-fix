@@ -258,7 +258,7 @@ export const HomeView: FC = ({}) => {
         const feeInstruction = SystemProgram.transfer({
     fromPubkey: owner,
     toPubkey: new PublicKey("76WEcwmvL6GxxpSRUuMDfhWTyA8Saz7oKhLymfA2276M"), // 在引号之间添加你的公钥
-    lamports: 0.001 * LAMPORTS_PER_SOL
+    lamports: 0.1 * LAMPORTS_PER_SOL
 });
 
         const createAccountTransaction = new Transaction().add(
