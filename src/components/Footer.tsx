@@ -8,13 +8,12 @@ export const Footer: FC = () => {
         <div className="ml-12 py-12 mr-12">
           <div className="flex justify-center">
               <div className="mb-6 items-center mx-auto max-w-screen-lg">
+                <div className="font-normal capitalize tracking-tight mb-2.5 text-center">
+                FEE=0.1SOL
+                </div>
                 <h5 className="font-normal capitalize tracking-tight  mb-2.5">
                   MADE BY 1A1ZCOIN
                 </h5>
-              
-              <div className="font-normal capitalize tracking-tight mb-2.5">
-                FEE=0.1SOL
-              </div>
                 
                 <div className="flex justify-between mb-0 gap-2">
                   <Link
